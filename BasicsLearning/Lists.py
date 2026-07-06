@@ -13,3 +13,12 @@ print(len(twoD[1]))
 twoD.append(["Terry","Sharon"])
 
 print(twoD)
+
+
+list=[1,2,3,4]
+sum=sum(list)
+print(sum)
+
+list1=["Amy","Holt"]
+proper_list= ",".join(list1)
+print(proper_list)
