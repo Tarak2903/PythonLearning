@@ -22,3 +22,8 @@ print(sum)
 list1=["Amy","Holt"]
 proper_list= ",".join(list1)
 print(proper_list)
+
+count=1
+for friend in friends:
+    print(f"This is my {friend} number {count}")
+    count=count+1

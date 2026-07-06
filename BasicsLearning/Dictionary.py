@@ -7,3 +7,8 @@ print(dictionary["Tarak"])
 
 # Order is maintained in Dictionary which is not maintained in Set
 # No duplicate is allowed in Dictionary as well
+
+
+for friends in dictionary:
+    print(friends)
+    print(dictionary[friends])
