@@ -1,4 +1,4 @@
-
+---------------------------------Python Memory--------------------------------------------------------------------------
 
 Python is a Multi-paradigm language i.e it is both object oriented and function oriented language
 
@@ -7,9 +7,23 @@ whenever reference is removed the object is deleted by garbage collector
 
 
 
+--------------------------------ACTUAL PYTHON EXECUTION----------------------------------------------------------------
 
 
-PYTHON GARBAGE COLLECTION ->
+1.First the .py code is compiled and converted it into byte code
+2.The Byte code is then interpreted by Python Virtual Machine
+
+
+Compiler is first used to fastly convert the raw source code
+ 
+
+Interpreter is then used so that we can have dynamic typing in python also byte code is platform independent
+
+
+
+
+
+-----------------------------------PYTHON GARBAGE COLLECTION--------------------------------------------------------------
 
 
 PYTHON DOES NOT HAVE CONCURRENT GARBAGE COLLECTION !!
@@ -56,3 +70,6 @@ Mark and Sweep Also Done
 
 NUMBER are IMMUTABLE!!!
 BOOL ARE SUBCLASS OF NUMBER SO THEY ARE ALSO IMMUTABLE
+
+
+To achieve Immutability python tends to remove certain internal methods such as __setitem__

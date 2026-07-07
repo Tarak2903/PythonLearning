@@ -27,3 +27,15 @@ count=1
 for friend in friends:
     print(f"This is my {friend} number {count}")
     count=count+1
+
+
+'''
+List Comprehension
+'''
+
+ls=[1,2,3,5,4]
+
+
+new_ls= [i* 2 for i in range(5)]
+
+print(new_ls)

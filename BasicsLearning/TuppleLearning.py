@@ -15,3 +15,8 @@ pokemon=("Pikachu","Charizard","Bulbasaur")
 pokemon=pokemon+("Charmender",)  # IMPORTANT
 
 print(pokemon)
+
+d = {"a": 1, "b": 2, "c": 3}
+
+
+
