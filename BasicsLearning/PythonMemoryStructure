@@ -1,0 +1,58 @@
+
+
+Python is a Multi-paradigm language i.e it is both object oriented and function oriented language
+
+Memory structure is same as JAVA a reference is in stack and real object lives in heap 
+whenever reference is removed the object is deleted by garbage collector
+
+
+
+
+
+PYTHON GARBAGE COLLECTION ->
+
+
+PYTHON DOES NOT HAVE CONCURRENT GARBAGE COLLECTION !!
+
+1. Reference Method-> Whenever any object is referenced the count of reference is increased conversely whenever that reference is removed count is decremented
+as soon as count reaches to 0 object is instantly deleted
+
+Limitation
+There can be circular references which may prevent the python to go GC
+
+
+
+2. Generational Garbage Collection -> Based on the idea young objects die fast
+
+
+WeakRef doesnt increase the reference count
+
+Three Generations
+
+Generation 0 (700 objects Threshold)
+
+Generation 1 (10 objects Threshold)
+
+Generation 2 (10 object Threshold)
+
+
+Mark and Sweep Also Done 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------OBJECTS AND IMMUTABILITY----------------------------------------
+
+NUMBER are IMMUTABLE!!!
+BOOL ARE SUBCLASS OF NUMBER SO THEY ARE ALSO IMMUTABLE
