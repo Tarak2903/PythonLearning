@@ -9,3 +9,9 @@ class Student:
 
 MyStudent =Student("James",[10,20,30,40])
 print(MyStudent.average())
+
+
+
+# This also works
+
+print(Student.average(MyStudent))
