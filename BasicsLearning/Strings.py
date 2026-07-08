@@ -10,7 +10,7 @@ print(greeting)
 
 
 '''
-This can be used both for multi line commments as well as string 
+This can be used both for multi line comments as well as string 
 Can be used with f String as well
 
 '''
