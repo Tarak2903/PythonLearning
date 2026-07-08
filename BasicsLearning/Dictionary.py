@@ -35,3 +35,4 @@ ls=list(range(len(friends)))
 
 ans=list(zip(friends,ls))
 print(ans)
+
