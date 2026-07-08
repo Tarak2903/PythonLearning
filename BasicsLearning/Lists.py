@@ -39,3 +39,10 @@ ls=[1,2,3,5,4]
 new_ls= [i* 2 for i in range(5)]
 
 print(new_ls)
+
+
+ages=[1,2,3,4,5]
+
+odd_ages= [i for i in ages if i%2==1]
+
+print(odd_ages)
