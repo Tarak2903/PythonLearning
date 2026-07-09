@@ -10,6 +10,14 @@ s.show()
 
 Student.show(s)
 
+class Car:
+    def __init__(abc,name,model):
+        abc.name=name
+        abc.model=model
+
+c=Car("Ford","OLD")
+
+print(c.model)
 '''
 IMPORTANT __init__  RUNS FOR OBJECT INITIALIZATION AFTER OBJECT CREATION
 
