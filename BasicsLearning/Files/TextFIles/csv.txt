@@ -1,0 +1,3 @@
+name,age,degree,college
+tarak,21,be,cu
+chahal,20,be,cu
