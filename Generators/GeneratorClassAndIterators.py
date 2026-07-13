@@ -1,7 +1,3 @@
-class StopIteration1(Exception):
-    def __init__(self,message):
-        super.__init__(message)
-
 class FirsHundredGenerator:
     def __init__(self):
         self.number=0
@@ -11,7 +7,9 @@ class FirsHundredGenerator:
             self.number+=1
             return current
         else:
-            raise StopIteration1("Value crossed 3 man !!!")
+            raise StopIteration("Value crossed 3 man !!!")
+    def __iter__(self):
+        return self
 
 g=FirsHundredGenerator()
 
@@ -35,5 +33,20 @@ class FirstFiveIterator:
 it= FirstFiveIterator()
 
 print(next(it))
+
+for i in FirsHundredGenerator():
+    print(i)
+
+
+''' Iterable '''
+#
+# class HundredIterable:
+#     def __iter__(self):
+#         return FirsHundredGenerator()
+#
+#
+# for i in HundredIterable():
+#     print(i)
+
 
 
