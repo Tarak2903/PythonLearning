@@ -1,15 +1,15 @@
 import  sqlite3
 from multiprocessing import connection
 
+from database_connection import DatabaseConnection
 
 def create_book_table():
-    connection=sqlite3.connect('data.db')
-    cursor=connection.cursor()
+    with DatabaseConnection() as connection:
+        cursor=connection.cursor()
 
-    cursor.execute("create table books(name text primary key ,author text,read integer)")
+        cursor.execute("create table books(name text primary key ,author text,read integer)")
 
-    connection.commit()
-    connection.close()
+
 
 def add_book(author,name):
     connection1=sqlite3.connect('data.db')
