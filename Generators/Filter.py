@@ -15,10 +15,4 @@ print(next(best_friend))
 
 
 
-age=20
-
-def add(current_age):
-    current_age+=1
-
-
 
