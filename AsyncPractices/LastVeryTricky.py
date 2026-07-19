@@ -1,6 +1,5 @@
 import asyncio
 
-from AsyncPython.ExampleThread import start
 
 
 async def work(name, t):

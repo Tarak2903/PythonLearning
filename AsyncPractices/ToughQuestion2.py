@@ -1,8 +1,5 @@
 import asyncio
 
-from selenium.webdriver.common.devtools.v148.tracing import end
-
-from AsyncPython.ExampleThread import start
 
 
 async def worker(name, delay):
