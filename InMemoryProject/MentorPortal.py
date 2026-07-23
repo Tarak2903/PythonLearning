@@ -1,4 +1,4 @@
-from Project.Mentor import  Mentor
+from InMemoryProject.Mentor import  Mentor
 m=Mentor("xyz")
 
 mentor_prompt='''

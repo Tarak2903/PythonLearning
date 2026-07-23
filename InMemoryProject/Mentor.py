@@ -1,5 +1,5 @@
-from Project.Intern import Intern
-from Project.Intern import Course
+from InMemoryProject.Intern import Intern
+from InMemoryProject.Intern import Course
 class Mentor:
 
     def __init__(self,name):

@@ -1,4 +1,4 @@
-from Project.Course import Course
+from InMemoryProject.Course import Course
 
 class Intern:
     def __init__(self,name):
